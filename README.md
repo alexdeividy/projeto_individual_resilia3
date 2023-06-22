@@ -1,2 +1,4 @@
-# projeto_individual_resilia3
-Atividade de Modelagem de Dados 
+# Projeto individual Modelagem de Dados
+Atividade de Modelagem de Dados do curso de Data Analytics da Resilia Educação
+
+
