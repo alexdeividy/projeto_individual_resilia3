@@ -1,0 +1,41 @@
+1. Quais são as entidades necessárias?;
+
+	° São necessárias 4 entidades, sendo elas: Empresa Parceiras, Tecnologias, Colaboradores e Areas
+
+2. Quais são os principais campos e seus respectivos tipos?;
+
+	° "ID", do tipo INTEGER sendo PK
+	° "CPF e CNPJ", do tipo CHAR
+	° "TELEFONE", do tipo CHAR
+	° "NOME", do tipo VARCHAR
+	° "EMAIL", do tipo VARCHAR
+	° "DESCRICAO", do tipo VARCHAR
+	 
+3. Como essas entidades estão relacionadas?;
+
+	° Várias tecnologias estão disponívels para várias áreas (N to N)
+	° Várias tecnologias estão disponíveis para várias empresas (N to N)
+	° Uma empresa pode ter vários colaboradores (1 to N)
+	° Um colaborador está disponível para uma área (1 to 1)
+
+4. Simule 2 registros para cada entidade.
+	
+	° Tecnologias:
+		ID	NOME		DESCRICAO
+		1	JAVASCRIPT	DESENVOLVER E ATUALIZAR WEBSITES
+		2	PYTHON		MANIPULACAO E TRATAMENTO DE DADOS
+
+	° Empresas Parceiras
+		ID	NOME	CNPJ              	EMAIL            	ID_TECNOLOGIA
+		1	IFOOD	11.111.111/0001-11	IFOOD@EXEMPLO.COM	1
+		2	RAPPI	22.222.222/0001-22	RAPPI@EXEMPLO.COM	2
+		
+	° Colaboradores
+		ID	NOME	CPF             TELEFONE        ID_EMPRESA_PARCEIRA
+		1	ALEX	111.111.111-11	(11)91111-1111	1
+		2	LUCIANA	222.222.222-22	(22)92222-2222	2
+
+	° Areas
+		ID	NOME		DESCRICAO                       ID_TECNOLOGIA   ID_COLABORADOR
+		1	WEBDEV		DESENVOLVIMENTO WEB             1               1
+		2	DADOS		BANCO DE DADOS E TRATAMENTO     2               2
