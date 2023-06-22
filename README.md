@@ -4,6 +4,7 @@
 Utilizando Diagramas para conceituar a estrutura base do projeto, um arquivo fictício de um banco de dados preenchidos.
 
 °Foram utilizadas as seguintes ferramentas:
+
     ° draw.io (Para criação dos diagramas)
     ° excel (Para a criação e preenchimentos dos dados fictícios)
     ° documento de texto (Para o preenchimento do questionário)
