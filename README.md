@@ -12,4 +12,7 @@ Utilizando Diagramas para conceituar a estrutura base do projeto, um arquivo fic
 ° A simulação consiste em um sistema que possa visualizar quais tecnologias a empresa parceira utiliza em diferentes áreas.
 
 
+° Projeto realizado por Alex Santana, aluno do curso de Data Analytics da Resilia Educação
+
+
   
